@@ -1,2 +1,2 @@
 # learnpython
-Simple python script for education
+Simple python scripts for education
