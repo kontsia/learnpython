@@ -1,10 +1,30 @@
-strings
-numbers
+strings   --> immutable
+numbers   --> immutable
 booleans
-lists
-sets
-frozensets
-tuples (πλοιάδες)
+lists   --> mutable
+sets   --> mutable
+frozensets   --> immutable
+tuples (πλοιάδες)   --> immutable
 ranges (σειρές)
-dictionaries
+dictionaries   --> mutable
 None
+
+mutability = can be modified after creation
+immutability = cannot be modified after creation
+
+lists exxample: colors=["red","blue"]
+sets example: colors={"red","blue"}
+tuples example: colors=("red","blue")
+ranges example: age=range(21,60)
+dictionaries example: {"John":"Sales","Maria":"Legal"."Lara":"HR"}
+
+
+
+list can have duplicate values, sets DON'T!
+if you have a list and you want to remove the duplicates --> revert it into sets!!!
+
+tuples is immutable lists. It is useful to protect some data against unwanted changes!
+
+ranges is useful for quickly generated small or large sequences of integer within certain bounds
+
+dictionaries is useful for databases entries of data

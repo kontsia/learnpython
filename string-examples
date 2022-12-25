@@ -1,0 +1,44 @@
+mystring= "This is my first string"
+
+mystring
+'This is my first string'
+
+
+
+# Python uses indexes to mark the position of an element (ie string character), within a sequence of elements.
+# A string is a sequence of elements and the elements of a string are the characters themselves!
+# The first element of any sequence, when counting from left to right, has the index 0.
+# Then the second element of the sequence has the index 1.
+# So, when using indexes, remember to always start counting from 0.
+# When counting backwards, from right to left, the first index will be -1.
+
+# So, the last character in a string will have index -1
+
+# Indexes are enclosed by square brackets, when we want to access some letter of a string.
+# Let's see this in practice:
+
+mystring[0]
+'T'
+
+
+mystring[10]
+' '
+
+mystring[1]
+'h'
+
+
+mystring[11]
+'f'
+
+
+mystring[9]
+'y'
+
+
+mystring[-1]
+'g'
+
+#To find out the lenght of the string (or the numbers of the string characters):
+len(mystring)
+23
